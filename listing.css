@@ -1,0 +1,38 @@
+.listing{
+    display: block;
+}
+
+.list{
+    width: 80%;
+    height: auto;
+    margin: auto;
+    margin-top: 5vw;
+    margin-bottom: 5vw;
+    clear: both;
+    border-radius: 10px;
+    background-color: rgba(128, 128, 128, 0.265);
+}
+
+.listres{
+    float: left;
+}
+
+.listres img{
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.listingyazi{
+    float: left;
+    width: 30%;
+    text-align: left;
+    margin-left: 5vw;
+    margin-top: 5vw;
+}
+
+.lsticket {
+    
+}
+
+
+

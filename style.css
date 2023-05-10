@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+  position: sticky;
+  top: 0;
+  z-index: 999999999999999;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: gray;
+   
+    
+}
+ul{
+    list-style-type: none;
+    display: inline-block;
+    float: right;
+    
+}
+li{
+    float: right;
+}
+li a{
+    display: block;
+    color:white;
+    text-align: center;
+    padding: 33px 22px;
+    text-decoration: none;
+    
+}
+li a:hover{
+  background-color: gold;
+}
+.active{
+    background-color: gold;
+  }
+  .res{
+    background-image: url("res.jpg");
+    padding: 20%;
+    opacity: 0.8;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+
+    
+  }
+  .banner h1{
+    position: absolute;
+    top: 250px;
+    left:550px;
+    color: white;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    
+  }
+  .but{
+    position:absolute;
+    top:350px;
+    left: 350px;
+
+  }
+
+  .butic {
+    width: 200px;
+    height:50px; 
+    border-right: 1px solid black;
+    
+  }
+ 
+.sbtn{
+    width: 200px;
+    height: 50px;
+    background-color: gray;
+    color: white;
+}
+  
+.icon{
+    background-image: url('logo.png');
+    width: 166px;
+    height: 58px;
+    display: inline-block;
+    margin-top: 20px;
+}
+.yazi h2 {
+  font-size: 35px;
+  margin-bottom: 25px;
+  text-transform: capitalize;
+  color: black;
+  font-weight: 700;
+  position: relative;
+  z-index: 2;
+  line-height: 44px;
+  float: left;
+  width: 100%;
+  text-align: center;
+}
+.icons{
+  text-align: center;
+  margin-top: 7vw;
+  margin-bottom: 7vw;
+  display: inline-block;
+  color: white;
+}
+.icons a{
+  padding: 1.5vw;
+  background-color: white;
+  border-radius: 50%;
+  margin: 3vw;
+  color: gray;
+}
+.icons a:hover{
+  transition: .3s;
+  background-color: #212529;
+
+}
+
+.kategori{
+  padding: 10vw 5vw;
+}
